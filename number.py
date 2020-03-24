@@ -12,11 +12,6 @@ for i in range(0, int(people)):
     n = random.randint(1,20)
     if n not in randomlist: randomlist.append(n)
    
-        
-    
-    
 print(randomlist)
-""" print(random.choice())
-print(n) """
 
 
