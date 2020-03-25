@@ -9,9 +9,9 @@ print()
 
 randomlist = []
 for i in range(0, int(people)):
-    n = random.randint(1,20)
+    n = random.randint(1,50)
     if n not in randomlist: randomlist.append(n)
-   
+   #need to print full amount from input and not repeat values
 print(randomlist)
 
 
